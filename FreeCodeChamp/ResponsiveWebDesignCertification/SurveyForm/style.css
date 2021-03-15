@@ -14,7 +14,7 @@ padding: 0;
 
 body {
   background-color: #cccccc;
-  background-image: url("images/vector-fruits-vegetables-pattern.jpg");
+  background-image: url("../images/vector-fruits-vegetables-pattern.jpg");
   background-repeat: repeat;
   font-family: sans-serif;
 }
