@@ -14,9 +14,13 @@ padding: 0;
 
 body {
   background-color: #cccccc;
+  font-family: sans-serif;
+}
+
+body::after {
   background-image: url("/images/fruit.jpg");
   background-repeat: repeat;
-  font-family: sans-serif;
+  opacity: 0.75;
 }
 
 h1, h2, h3, .more_info {
