@@ -1,16 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Survey form</title>
+    <title>Application for the local yearly Fruit festival</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
   </head>
   <body>
-    <header>
 
-    </header>
-    <main>
+    <div id="container">
+      <main id="main">
+        <h1 id="title">Yearly local Fruit festival</h1>
+        <h2 id="title">Apply now!</h2>
+        <hr class="line">
+        <article id="article">
+          <p id="description">This festival is organised every year in the first summer month.<br> Please join us to enjoy vitamins and celebrate fruits.</p>
+          <form id="survey-form">
+            <label id="name-label">name</label>
+            <input type="text" id="name" placeholder="YOUR NAME" required><br>
+            <label id="email-label">email</label>
+            <input type="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL" required><br>
+            <label id="number-label">number</label>
+            <input type="tel" id="number" placeholder="YOUR NUMBER" min="10" max="10" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
 
-    </main>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+            <label id="label_margin">What kind of smoothie would you like with lunch?</label><br>
+            <select id="dropdown">
+              <option value="1">Strawberry</option><br>
+              <option value="2">Banana</option><br>
+            </select><br>
+
+            <label id="label_margin">Which drink may we serve?</label><br>
+            <input type="radio" id="water" name="drinks" value="Sparkle source water with a hit of grapefruit">
+            <label for="water">Sparkle source water with a hint of grapefruit</label><br>
+            <input type="radio" id="raspberry_tea" name="drinks" value="Raspberry Tea">
+            <label for="Raspberry Tea">Raspberry Tea</label><br>
+            <input type="radio" id="blueberry_mint" name="drinks" value="Blueberry Mint Lemonade">
+            <label for="other">Blueberry Mint Lemonade</label><br>
+
+            <label id="label_margin">How many and which sandwich would you like? Pick one or more!</label><br>
+            <input type="checkbox" id="sandwich1" name="sandwich1" value="Japanese Fruit Sandwich">
+            <label for="vehicle1"> Japanese Fruit Sandwich</label><br>
+            <input type="checkbox" id="sandwich2" name="sandwich2" value="Apple with Banana and Jam Sandwich">
+            <label for="vehicle2"> Apple with Banana and Jam Sandwich</label><br>
+            <input type="checkbox" id="sandwich3" name="sandwich3" value="Fruit and Nut Butter Sandwich">
+            <label for="vehicle3"> Fruit and Nut Butter Sandwich</label><br>
+            <label id="label_margin">Further dietary wishes?</label><br>
+            <textarea></textarea><br>
+            <input type="submit" id="submit" value="Sumbit"><br><br>
+
+            <p><i><a href='https://www.freepik.com/vectors/background'>Background vector created by createvil - www.freepik.com</a></i></p>
+          </form>
+        </article>
+      </main>
+    </div>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
