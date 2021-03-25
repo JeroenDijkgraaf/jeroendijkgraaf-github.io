@@ -1,5 +1,9 @@
 /* Main Level */
 
+body {
+  font-family: "Arial", sans-serif;
+}
+
 ul{
   margin-left:10px;
 }
