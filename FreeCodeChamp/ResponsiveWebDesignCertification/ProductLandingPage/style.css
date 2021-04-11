@@ -5,12 +5,19 @@
   padding: 0;
 }
 
+body {
+  background: #ADDFB3;
+}
+#page-wrapper {
+  text-align: center;
+}
+
 #header {
 
 }
 
 .logo {
-  
+
 }
 
 .nav-link {
